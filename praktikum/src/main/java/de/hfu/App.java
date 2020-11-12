@@ -1,10 +1,6 @@
 package de.hfu;
 import java.util.Scanner;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args ){
@@ -12,9 +8,9 @@ public class App
         String eingabe;
 
         System.out.println("String eingeben: ");
-        eingabe = e.nextLine();
+        eingabe = e.nextLine();//eingabe
 
-        eingabe = eingabe.toUpperCase();
-        System.out.println(eingabe);
+        eingabe = eingabe.toUpperCase();//umwandlung zu Großbuchstaben
+        System.out.println(eingabe);//Ausgabe des geänerten string
     }
 }
